@@ -221,7 +221,7 @@
     aspect-ratio: 1 / 1;
     background: var(--deco1);
     position: absolute;
-    top: 14%;
+    top: 13%;
     z-index: 10;
 }
 .ccp-deco2 {
@@ -229,7 +229,8 @@
     aspect-ratio: 1 / 1;
     background: var(--deco2);
     position: absolute;
-    top: 18%;
+    top: 17%;
     left: 45%;
     z-index: 10;
 }
+
