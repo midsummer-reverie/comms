@@ -1,0 +1,235 @@
+@import url(https://midsummer-reverie.github.io/font-face/THBaijam.css);
+:root {
+    --divpic-pos1: 50% 0%/cover;
+    --divpic-pos2: 50% 40%/cover;
+    --divpic-pos3: 50% 100%/cover;
+}
+.ccp-box {
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(19, 19, 19, 1) 40%, rgba(255, 255, 255, 0) 100%), url(https://iili.io/K2xhwhJ.jpg) center / cover;
+    position: relative;
+    padding: 3.2vw;
+    box-sizing: border-box;
+}
+.ccp-logo {
+    width: 15%;
+    margin: auto;
+    aspect-ratio: 1 / 1;
+    background: var(--ccplogo);
+}
+.ccp-content {
+    width: 95%;
+    margin: 2.3vw auto;
+    display: grid;
+    grid-template-columns: 8% 1fr 1.5fr 1fr 8%;
+    grid-template-rows: 3.3vw repeat(16, auto) 4vw;
+}
+.ccp-bgtop {
+    width: 100%;
+    grid-area: 2 / 2 / 7 / 5;
+    border-radius: 2vw 2vw 0vw 0vw;
+    background: linear-gradient(0deg, rgba(235, 235, 235, 1) 0%, rgba(255, 255, 255, 0) 100%), var(--backgroundpic);
+    z-index: 1;
+}
+.ccp-subpicflex {
+    width: 65%;
+    grid-area: 2 / 1 / 4 / 4;
+    display: flex;
+    gap: 0.5vw;
+    z-index: 3;
+    margin: 3.5vw 0vw 0vw 4.2vw;
+    align-items: flex-start;
+}
+.ccp-subpic1 {
+    width: 48%;
+    aspect-ratio: 1 / 1;
+    border: 2px solid var(--bordercolor);
+    rotate: 4deg;
+    background: var(--subpic1);
+    margin-top: 1vw;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+}
+.ccp-subpic2 {
+    width: 48%;
+    aspect-ratio: 1 / 1;
+    border: 2px solid var(--bordercolor);
+    background: var(--subpic2);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+}
+.ccp-subpic3 {
+    width: 85%;
+    grid-area: 3 / 1 / 4 / 4;
+    aspect-ratio: 3.2 / 1;
+    border: 2px solid var(--bordercolor);
+    background: var(--subpic3);
+    rotate: -3deg;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+    z-index: 2;
+    justify-self: left;
+    margin-top: 14.8vw;
+    margin-left: 1.45vw;
+}
+.ccp-mainpic {
+    width: 65%;
+    aspect-ratio: 2.3 / 3;
+    grid-area: 1 / 3 / 5 / 6;
+    justify-self: right;
+    border: 2px solid var(--bordercolor);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+    rotate: 5deg;
+    z-index: 4;
+    margin: 1.2vw 2vw 0vw 0vw;
+    background: var(--mainpic);
+}
+.ccp-text1 {
+    width: 55%;
+    grid-area: 4 / 2 / 5 / 4;
+    z-index: 5;
+    font: 1.5vw 'THBaijam';
+    color: #242424;
+    margin: 2vw 0vw 0vw 3.4vw;
+}
+.ccp-text2 {
+    width: 85%;
+    margin-left: 3.4vw;
+    margin-bottom: 1.4vw;
+    grid-area: 5 / 2 / 6 / 5;
+    z-index: 5;
+    font: 1.5vw 'THBaijam';
+    color: #242424;
+    text-align: justify;
+}
+.ccp-divpic1 {
+    width: 90%;
+    margin: 2vw auto;
+    aspect-ratio: 4 / 1;
+    grid-area: 6 / 1 / 8 / 6;
+    z-index: 4;
+    border: 2px solid var(--bordercolor);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+    rotate: 2deg;
+    background: var(--divpic) var(--divpic-pos1);
+}
+.ccp-bgmid {
+    width: 100%;
+    grid-area: 7 / 2 / 11 / 5;
+    background: #ebebeb;
+    z-index: 1;
+}
+.ccp-text3 {
+    width: 85%;
+    margin: 1.4vw 0vw 1.4vw 3.4vw;
+    grid-area: 8 / 2 / 9 / 5;
+    z-index: 5;
+    font: 1.5vw 'THBaijam';
+    color: #242424;
+    text-align: justify;
+}
+.ccp-divpic2 {
+    width: 90%;
+    margin: 2vw auto;
+    aspect-ratio: 4 / 1;
+    grid-area: 10 / 1 / 12 / 6;
+    z-index: 4;
+    border: 2px solid var(--bordercolor);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+    rotate: -2deg;
+    background: var(--divpic) var(--divpic-pos2);
+}
+.ccp-bgfooter {
+    width: 100%;
+    grid-area: 11 / 2 / 14 / 5;
+    background: #ebebeb;
+    z-index: 1;
+}
+.ccp-text4 {
+    width: 85%;
+    margin: 1.4vw 0vw 1.4vw 3.4vw;
+    grid-area: 12 / 2 / 13 / 5;
+    z-index: 5;
+    font: 1.5vw 'THBaijam';
+    color: #242424;
+    text-align: justify;
+}
+.ccp-divpic3 {
+    width: 90%;
+    margin: 2vw auto;
+    aspect-ratio: 4 / 1;
+    grid-area: 13 / 1 / 15 / 6;
+    z-index: 4;
+    border: 2px solid var(--bordercolor);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+    rotate: 2deg;
+    background: var(--divpic) var(--divpic-pos3);
+}
+.ccp-bgrole {
+    width: 100%;
+    grid-area: 14 / 2 / 18 / 5;
+    background: linear-gradient(0deg, rgba(235, 235, 235, 1) 30%, rgba(255, 255, 255, 0) 100%), var(--backgroundpic);
+    z-index: 1;
+    border-radius: 0vw 0vw 2vw 2vw;
+}
+.ccp-rolepic {
+    width: 70%;
+    aspect-ratio: 1 / 1;
+    border-radius: 1000px;
+    border: 2px solid var(--bordercolor);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.59);
+    grid-area: 14 / 3 / 16 / 4;
+    margin: auto;
+    z-index: 8;
+    background: url(https://i.pinimg.com/1200x/31/bd/b3/31bdb30….jpg) center / cover;
+}
+.ccp-role {
+    width: 85%;
+    margin: 1.4vw 0vw 2.6vw 3.4vw;
+    grid-area: 16 / 2 / 17 / 5;
+    z-index: 5;
+    font: 1.5vw 'THBaijam';
+    color: #242424;
+    text-align: justify;
+}
+.ccp-deco5 {
+    width: 55%;
+    margin: auto;
+    grid-area: 17 / 3 / 19 / 4;
+    aspect-ratio: 1.5 / 1;
+    background: var(--deco5);
+    z-index: 9;
+}
+.ccp-deco3 {
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    background: var(--deco3);
+    z-index: 10;
+    grid-area: 7 / 4 / 9 / 6;
+    justify-self: right;
+    margin: 1vw 0.6vw 0vw 0vw;
+}
+.ccp-deco4 {
+    width: 40%;
+    aspect-ratio: 1 / 1;
+    background: var(--deco4);
+    z-index: 10;
+    grid-area: 11 / 1 / 12 / 3;
+    justify-self: left;
+    margin: 1vw 0.6vw 0vw 0vw;
+}
+.ccp-deco1 {
+    width: 10%;
+    aspect-ratio: 1 / 1;
+    background: var(--deco1);
+    position: absolute;
+    top: 14%;
+    z-index: 10;
+}
+.ccp-deco2 {
+    width: 10%;
+    aspect-ratio: 1 / 1;
+    background: var(--deco2);
+    position: absolute;
+    top: 18%;
+    left: 45%;
+    z-index: 10;
+}
