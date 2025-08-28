@@ -96,7 +96,7 @@
     grid-area: 5 / 1 / 6 / 2;
     z-index: 3;
 }
-.cct-subtitie {
+.cct-subtitle {
     width: fit-content;
     margin: auto;
     font: 1.75vw 'THBaijam';
@@ -122,4 +122,5 @@
     color: red;
     font-style: italic;
     font-weight: 500;
+
 }
