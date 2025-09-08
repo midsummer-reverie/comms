@@ -15,7 +15,7 @@
 .ccp-logo {
     width: 15%;
     margin: auto;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 1.685 / 1;
     background: var(--ccplogo);
 }
 .ccp-content {
@@ -233,5 +233,6 @@
     left: 45%;
     z-index: 10;
 }
+
 
 
