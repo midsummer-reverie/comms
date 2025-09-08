@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 .ccp-logo {
-    width: 15%;
+    width: 25%;
     margin: auto;
     aspect-ratio: 1.685 / 1;
     background: var(--ccplogo);
@@ -233,6 +233,7 @@
     left: 45%;
     z-index: 10;
 }
+
 
 
 
