@@ -26,13 +26,13 @@
 .fquest-logo {
     width: 100%;
     aspect-ratio: 1 / 1;
-    background: var(--accent);
+    background: var(--hdcl);
     mask: var(--fq-logo);
 }
 .fquest-tt1 {
     width: 100%;
     font: 2vw 'Fredoka';
-    color: var(--accent);
+    color: var(--hdcl);
     text-align: center;
     font-weight: 600;
     margin-top: 3vw;
@@ -41,7 +41,7 @@
 .fquest-tt2 {
     width: 100%;
     font: 1.5vw 'Fredoka';
-    color: var(--accent);
+    color: var(--hdcl);
     text-align: center;
     font-weight: 600;
     margin-top: 0.8vw;
